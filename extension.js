@@ -58,8 +58,8 @@
         botName: "JitsuuBot",
         language: "english",
         startupCap: 25, // 1-200
-        startupVolume: 17, // 0-100
-        startupEmoji: false, // true or false
+        startupVolume: 25, // 0-100
+        startupEmoji: true, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         maximumAfk: 120,
@@ -72,10 +72,10 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
+        voteSkip: true,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 6,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
@@ -93,7 +93,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motd: "Pickles is a teenage mom",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
